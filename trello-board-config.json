@@ -1,0 +1,88 @@
+{
+  "name": "Project X - Example Board",
+  "desc": "An example Trello board for a generic project, demonstrating the script's capabilities.",
+  "prefs": {
+    "permissionLevel": "private",
+    "voting": "disabled",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": false,
+    "cardCovers": true,
+    "background": "blue",
+    "cardAging": "regular"
+  },
+  "lists": [
+    {
+      "name": "To Do",
+      "pos": "top"
+    },
+    {
+      "name": "In Progress",
+      "pos": "bottom"
+    },
+    {
+      "name": "Done",
+      "pos": "bottom"
+    },
+    {
+      "name": "Ideas",
+      "pos": "bottom"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Feature",
+      "color": "green"
+    },
+    {
+      "name": "Bug",
+      "color": "red"
+    },
+    {
+      "name": "Improvement",
+      "color": "blue"
+    },
+    {
+      "name": "Documentation",
+      "color": "yellow"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Set up project repository",
+      "desc": "Create a new Git repository and initialize it with a basic structure.",
+      "idList": "To Do",
+      "labels": ["Improvement"]
+    },
+    {
+      "name": "Design user authentication flow",
+      "desc": "Outline the steps for user registration, login, and password recovery.",
+      "idList": "To Do",
+      "labels": ["Feature", "Documentation"]
+    },
+    {
+      "name": "Implement basic API endpoints",
+      "desc": "Develop initial API routes for user management and data retrieval.",
+      "idList": "In Progress",
+      "labels": ["Feature"]
+    },
+    {
+      "name": "Fix styling issues on homepage",
+      "desc": "Address responsive design problems and ensure consistent branding.",
+      "idList": "In Progress",
+      "labels": ["Bug"]
+    },
+    {
+      "name": "Complete database schema design",
+      "desc": "Finalize the database tables, relationships, and data types.",
+      "idList": "Done",
+      "labels": ["Documentation"]
+    },
+    {
+      "name": "Brainstorm new feature ideas",
+      "desc": "Hold a team session to generate innovative ideas for future releases.",
+      "idList": "Ideas",
+      "labels": []
+    }
+  ]
+}
